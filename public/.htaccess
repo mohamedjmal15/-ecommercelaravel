@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirection vers localhost:80 si l'adresse est 0.0.0.0
+    RewriteCond %{HTTP_HOST} ^0\.0\.0\.0$
+    RewriteRule ^(.*)$ http://localhost:80/$1 [L,R=301]
+
+    # Ignore les fichiers existants
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Redirige toutes les autres requêtes vers index.php
+    RewriteRule ^ index.php [L]
+</IfModule>
