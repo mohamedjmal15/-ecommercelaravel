@@ -41,7 +41,7 @@
 						<div class="topbar-menu left-menu">
 							<ul>
 								<li class="menu-item" >
-									<a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+									<a title="Hotline: (555) 123-4568" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (555) 123-4568</a>
 								</li>
 							</ul>
 						</div>
@@ -49,17 +49,21 @@
 							<ul>
 
 								<li class="menu-item lang-menu menu-item-has-children parent">
-									<a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-en"></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-									<ul class="submenu lang" >
+									<a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-en"></span>English</a>
+
+									<!-- <a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-en"></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
+                                    <!-- <ul class="submenu lang" >
 										<li class="menu-item" ><a title="hungary" href="#"><span class="img label-before"><img src="assets/images/lang-hun.png" alt="lang-hun"></span>Hungary</a></li>
 										<li class="menu-item" ><a title="german" href="#"><span class="img label-before"><img src="assets/images/lang-ger.png" alt="lang-ger" ></span>German</a></li>
 										<li class="menu-item" ><a title="french" href="#"><span class="img label-before"><img src="assets/images/lang-fra.png" alt="lang-fre"></span>French</a></li>
 										<li class="menu-item" ><a title="canada" href="#"><span class="img label-before"><img src="assets/images/lang-can.png" alt="lang-can"></span>Canada</a></li>
-									</ul>
+									</ul> -->
 								</li>
                                 <li class="menu-item menu-item-has-children parent" >
-                                    <a title="Dollar(USD)" href="#">Dollar(USD)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="submenu curency" >
+                                    <a title="Dollar(USD)" href="#">Dollar(USD)</a>
+                                    <!-- <a title="Dollar(USD)" href="#">Dollar(USD)<i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
+
+                                    <!-- <ul class="submenu curency" >
                                         <li class="menu-item" >
                                             <a title="Pound" href="#">Pound (GBP)</a>
                                         </li>
@@ -69,7 +73,7 @@
                                         <li class="menu-item" >
                                             <a title="Dollar (USD)" href="#">Dollar (USD)</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
                                 @if(Route::has('login'))
@@ -153,7 +157,7 @@
 					<div class="mid-section main-info-area">
 
 						<div class="wrap-logo-top left-section">
-							<a href="index.html" class="link-to-home"><img src="{{asset('assets/images')}}" alt="logo"></a>
+							<a href="/" class="link-to-home"><img src="{{asset('assets/images/logo-site.jpg')}}" alt="logo"></a>
 						</div>
 
                         @livewire('header-search-component');
@@ -179,14 +183,15 @@
 					<div class="header-nav-section">
 						<div class="container">
 							<ul class="nav menu-nav clone-main-menu" id="mercado_haead_menu" data-menuname="Sale Info" >
-								<li class="menu-item"><a href="#" class="link-term">Weekly Featured</a><span class="nav-label hot-label">hot</span></li>
-								<li class="menu-item"><a href="#" class="link-term">Hot Sale items</a><span class="nav-label hot-label">hot</span></li>
-								<li class="menu-item"><a href="#" class="link-term">Top new items</a><span class="nav-label hot-label">hot</span></li>
-								<li class="menu-item"><a href="#" class="link-term">Top Selling</a><span class="nav-label hot-label">hot</span></li>
-								<li class="menu-item"><a href="#" class="link-term">Top rated items</a><span class="nav-label hot-label">hot</span></li>
+								<!-- <li class="menu-item"><a href="#" class="link-term">Weekly Featured</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Hot Sale items</a><span class="nav-label hot-label">hot</span></li> -->
+								<li class="menu-item"><a href="#" class="link-term">PC</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Mobile Phone</a><span class="nav-label hot-label">hot</span></li>
+								<li class="menu-item"><a href="#" class="link-term">Home Appliance</a><span class="nav-label hot-label">hot</span></li>
 							</ul>
 						</div>
 					</div>
+                    
 
 					<div class="primary-nav-section">
 						<div class="container">

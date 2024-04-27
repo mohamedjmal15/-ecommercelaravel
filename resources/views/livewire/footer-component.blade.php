@@ -135,7 +135,7 @@
 
 					<div class="row">
 
-						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+						<!-- <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
 								<h3 class="item-header">We Using Safe Payments:</h3>
 								<div class="item-content">
@@ -144,7 +144,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
@@ -152,9 +152,9 @@
 								<div class="item-content">
 									<div class="wrap-list-item social-network">
 										<ul>
-											<li><a href="{{$setting->twitter}}" class="link-to-item" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<!-- <li><a href="{{$setting->twitter}}" class="link-to-item" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
 											<li><a href="{{$setting->facebook}}" class="link-to-item" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="{{$setting->pinterest}}" class="link-to-item" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+											<!-- <li><a href="{{$setting->pinterest}}" class="link-to-item" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li> -->
 											<li><a href="{{$setting->instagram}}" class="link-to-item" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 											<li><a href="{{$setting->youtube}}" class="link-to-item" title="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 										</ul>
@@ -164,7 +164,7 @@
 						</div>
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-							<div class="wrap-footer-item">
+							<!-- <div class="wrap-footer-item">
 								<h3 class="item-header">Dowload App</h3>
 								<div class="item-content">
 									<div class="wrap-list-item apps-list">
@@ -174,7 +174,7 @@
 										</ul>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 
 					</div>
@@ -182,7 +182,7 @@
 
 				<div class="wrap-back-link">
 					<div class="container">
-						<div class="back-link-box">
+						<!-- <div class="back-link-box">
 							<h3 class="backlink-title">Quick Links</h3>
 							<div class="back-link-row">
 								<ul class="list-back-link" >
@@ -226,7 +226,7 @@
 								</ul>
 
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
@@ -235,9 +235,9 @@
 			<div class="coppy-right-box">
 				<div class="container">
 					<div class="coppy-right-item item-left">
-						<p class="coppy-right-text">Copyright © 2020 Surfside Media. All rights reserved</p>
+						<p class="coppy-right-text">Copyright © 2024 IHM. All rights reserved</p>
 					</div>
-					<div class="coppy-right-item item-right">
+					<!-- <div class="coppy-right-item item-right">
 						<div class="wrap-nav horizontal-nav">
 							<ul>
 								<li class="menu-item"><a href="about-us.html" class="link-term">About us</a></li>
@@ -246,7 +246,7 @@
 								<li class="menu-item"><a href="return-policy.html" class="link-term">Return Policy</a></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 					<div class="clearfix"></div>
 				</div>
 			</div>

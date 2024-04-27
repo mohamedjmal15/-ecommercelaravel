@@ -16,10 +16,11 @@
                         <div class="col-md-6">
                             All Categories
                         </div>
-                    </div>
-                    <div class="col-md-6">
+                        <div class="col-md-6">
                         <a href="{{route('admin.addcategory')}}" class="btn btn-success pull-right">Add New</a>
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="panel-body">
                     @if(Session::has('message'))
