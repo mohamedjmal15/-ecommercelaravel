@@ -160,7 +160,7 @@
 							<a href="/" class="link-to-home"><img src="{{asset('assets/images/logo-site.jpg')}}" alt="logo"></a>
 						</div>
 
-                        @livewire('header-search-component');
+                        @livewire('header-search-component')
 
 						<div class="wrap-icon right-section">
                             @livewire('wishlist-count-component')
@@ -199,9 +199,9 @@
 								<li class="menu-item home-icon">
 									<a href="/" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
 								</li>
-								<li class="menu-item">
+								<!-- <li class="menu-item">
 									<a href="about-us.html" class="link-term mercado-item-title">About Us</a>
-								</li>
+								</li> -->
 								<li class="menu-item">
 									<a href="/shop" class="link-term mercado-item-title">Shop</a>
 								</li>
@@ -239,7 +239,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js" integrity="sha512-GDey37RZAxFkpFeJorEUwNoIbkTwsyC736KNSYucu1WJWFK9qTdzYub8ATxktr6Dwke7nbFaioypzbDOQykoRg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js" integrity="sha512-jWNpWAWx86B/GZV4Qsce63q5jxx/rpWnw812vh0RE+SBIo/mmepwOSQkY2eVQnMuE28pzUEO7ux0a5sJX91g8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script></script>
-      <script src="https://cdn.tiny.cloud/1/me77cj04urnofrbsy7kfv2dfad1fiizpocpnizro6c0vftjf/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+      <!-- <script src="https://cdn.tiny.cloud/1/me77cj04urnofrbsy7kfv2dfad1fiizpocpnizro6c0vftjf/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
     @livewireScripts
 
     @stack('scripts')
