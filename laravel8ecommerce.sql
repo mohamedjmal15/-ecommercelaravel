@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2024 at 06:46 PM
+-- Generation Time: Apr 30, 2024 at 12:11 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -327,7 +327,7 @@ INSERT INTO `products` (`id`, `name`, `slug`, `short_description`, `description`
 (17, 'DELL', 'dell', 'DELL Ram 4GO I5 9th', 'Ram 4GO Processor I5 9eme Storage 512 ssd ', 251.00, 300.00, 'DIGI273', 'instock', 0, 144, 'digital_14.jpg', NULL, 1, '2021-07-08 16:14:45', '2024-04-16 18:57:34'),
 (18, 'Nokia x2', 'nokia-x2', 'Mobile phone nokia x2', 'Ram 2g, Processeur snapdragon, stockage 64GO ', 404.00, 420.00, 'DIGI369', 'instock', 0, 133, 'digital_2.jpg', NULL, 2, '2021-07-08 16:14:45', '2024-04-16 18:57:55'),
 (20, 'HP', 'hp', 'HP 8GO i7 9th', 'Ram 8GO Processeur I7 9th Stockage 1TO hdd 128 ssd', 32.00, 400.00, 'DIGI314', 'instock', 0, 163, 'digital_4.jpg', NULL, 1, '2021-07-08 16:14:45', '2024-04-16 18:59:17'),
-(24, 'multifunctional robot', 'multifunctional-robot', 'multifunctional robot for different uses', 'multifunctional robot for different uses', 12.00, 15.00, '1546', 'instock', 1, 1, '1713296702.jpg', ',17132967020.jpg', 3, '2024-04-16 18:45:02', '2024-04-16 18:58:54');
+(26, 'Washing machine', 'washing-machine', 'Washing machine', 'Washing machine', 400.00, 450.00, 'Washing machine sku', 'instock', 0, 20, '1714426224.jpg', ',17144262240.jpg', 3, '2024-04-29 20:30:24', '2024-04-29 20:30:24');
 
 -- --------------------------------------------------------
 
@@ -385,7 +385,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('qUa1aNiaaGqrvzyKwcFnLW39oTZY0VNcY78kv7Vh', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiZFh1dXR1Nnk3TmRXQnk2R1pVZzJ3VEp0Sjl0eWRPeXFMUFNRYlp0biI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMCRBb1p2UC4wcjlEMkd3RGZ5VktIamVPT1YxRmgzb1pWN05GUTFYZTBDSlVTWE5uM1piOC9lYSI7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkQW9adlAuMHI5RDJHd0RmeVZLSGplT09WMUZoM29aVjdORlExWGUwQ0pVU1hObjNaYjgvZWEiO30=', 1714236358);
+('hGhwhTiAQ90vltGL1Lt6xFhCkcCLi5gE2NWgMO5g', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0', 'YTo4OntzOjY6Il90b2tlbiI7czo0MDoiaGtzeE85T1VQQXh0YjVSSFRyT2k0MklaQXNkTUFqY3RRWlZ2dWJpdSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NDoiY2FydCI7YToxOntzOjQ6ImNhcnQiO086Mjk6IklsbHVtaW5hdGVcU3VwcG9ydFxDb2xsZWN0aW9uIjoyOntzOjg6IgAqAGl0ZW1zIjthOjE6e3M6MzI6IjA3Y2NhMTUxNjhiMWE1ZTQ4ZTBmODlkODc4ZmJmNmVhIjtPOjMyOiJHbG91ZGVtYW5zXFNob3BwaW5nY2FydFxDYXJ0SXRlbSI6OTp7czo1OiJyb3dJZCI7czozMjoiMDdjY2ExNTE2OGIxYTVlNDhlMGY4OWQ4NzhmYmY2ZWEiO3M6MjoiaWQiO2k6MTY7czozOiJxdHkiO2k6MjtzOjQ6Im5hbWUiO3M6MTg6IlNhbXN1bmcgR2FsYXh5IFRhYiI7czo1OiJwcmljZSI7ZDoyODQ7czo3OiJvcHRpb25zIjtPOjM5OiJHbG91ZGVtYW5zXFNob3BwaW5nY2FydFxDYXJ0SXRlbU9wdGlvbnMiOjI6e3M6ODoiACoAaXRlbXMiO2E6MDp7fXM6Mjg6IgAqAGVzY2FwZVdoZW5DYXN0aW5nVG9TdHJpbmciO2I6MDt9czo0OToiAEdsb3VkZW1hbnNcU2hvcHBpbmdjYXJ0XENhcnRJdGVtAGFzc29jaWF0ZWRNb2RlbCI7czoxODoiQXBwXE1vZGVsc1xQcm9kdWN0IjtzOjQxOiIAR2xvdWRlbWFuc1xTaG9wcGluZ2NhcnRcQ2FydEl0ZW0AdGF4UmF0ZSI7aToyMTtzOjQxOiIAR2xvdWRlbWFuc1xTaG9wcGluZ2NhcnRcQ2FydEl0ZW0AaXNTYXZlZCI7YjowO319czoyODoiACoAZXNjYXBlV2hlbkNhc3RpbmdUb1N0cmluZyI7YjowO319czo4OiJjaGVja291dCI7YTo0OntzOjg6ImRpc2NvdW50IjtpOjA7czo4OiJzdWJ0b3RhbCI7czo2OiI1NjguMDAiO3M6MzoidGF4IjtzOjY6IjExOS4yOCI7czo1OiJ0b3RhbCI7czo2OiI2ODcuMjgiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkQW9adlAuMHI5RDJHd0RmeVZLSGplT09WMUZoM29aVjdORlExWGUwQ0pVU1hObjNaYjgvZWEiO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJEFvWnZQLjByOUQyR3dEZnlWS0hqZU9PVjFGaDNvWlY3TkZRMVhlMENKVVNYTm4zWmI4L2VhIjt9', 1714427667);
 
 -- --------------------------------------------------------
 
@@ -688,7 +688,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `reviews`
